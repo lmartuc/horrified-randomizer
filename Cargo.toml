@@ -1,0 +1,11 @@
+bin = [
+  { name = "hrand", path = "hrand.rs" },
+]
+
+[package]
+name = "horrified-randomizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.9.0"
